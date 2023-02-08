@@ -48,6 +48,6 @@ return require('packer').startup(function(use)
     }
 
     use {"akinsho/toggleterm.nvim", tag = '*' }
-
+    use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 end)
 
